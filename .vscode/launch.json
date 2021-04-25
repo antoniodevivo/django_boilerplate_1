@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current file",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "BP tests",
+      "type": "python",
+      "request": "launch",
+      "python": "${command:python.interpreterPath}",
+      "stopOnEntry": true,
+      "args": [
+        "test"
+      ],
+      "program": "${workspaceFolder}\\manage.py",
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal",
+      "env": {},
+      "envFile": "${workspaceFolder}\\.env",
+    },
+    {
+      "name": "BP django runserver",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\manage.py",
+      "args": [
+        "runserver",
+        //"--noreload"
+      ],
+      "django": true
+    }
+  }

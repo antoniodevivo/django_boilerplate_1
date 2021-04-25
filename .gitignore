@@ -1,0 +1,11 @@
+__pycache__/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.env
+static/admin
+static/rest_framework
+static/logs/*
+static/uploads/*

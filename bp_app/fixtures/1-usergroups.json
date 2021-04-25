@@ -1,0 +1,19 @@
+[
+  {
+    "model": "bp_app.usersgroups",
+    "pk": 1,
+    "fields": {
+      "name": "Base User",
+      "rank_level": 1
+    }
+  },
+  {
+    "model": "bp_app.usersgroups",
+    "pk": 2,
+    "fields": {
+      "name": "Admin",
+      "rank_level": 2
+    }
+  }
+
+]
